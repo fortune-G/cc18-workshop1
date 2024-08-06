@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    background-color: rgba(128, 128, 128, 0.13);
+}
+.top{
+    display: flex; 
+    height: 7vh; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.top >*{
+    display: flex; 
+} 
+.top p{
+    /* font-size: 14px;  */
+    margin: 0;
+} 
+.top1 img{
+    height: 5vh;
+}
+.top1{
+    margin-left: 3vw; 
+    width: 33vw; 
+    justify-content: start; 
+    align-items: end;
+}
+.top1 >*{
+    display: flex;
+}
+.top2{
+    width: 18vw; 
+    justify-content: space-between; 
+    margin-left: 5%;
+} 
+.top2 >*{
+    display: flex; 
+
+} 
+.top3{
+    width: 30vw;
+    justify-content: end; 
+    margin-right: 5vw; 
+    margin-left: 3vw; 
+    align-items: center;
+} 
+.top3 >*{
+    display: flex;
+}
+.top3 i{
+    height: 6vh; 
+    width: 4vw; 
+    margin: 0; 
+    align-items: center;
+} 
+.top3 p{
+    margin-left: 8px;
+}
+hr{
+    margin: 0;
+} 
+h1{
+    margin-left: 3vw;
+}
+.main{
+    width: 88vw; 
+    height: 70vh;
+    margin-left: 3vw; 
+    display: flex; 
+    /* border: 1px solid red;  */
+    flex-flow: column wrap; 
+    justify-content: start;
+}
+.main >*{
+    display: flex; 
+    /* width: 50%;   */
+    /* border: 1px solid black; */
+
+} 
+.main .googleDoc, .main .googleS{
+    display: flex;
+    width: 46%;
+    height: 43%; 
+    border: 1px solid white; 
+    background-color: white; 
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+.googleDoc .docpic, .googleS .Spic{
+    width: 55%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}  
+.googleDoc .doccont, .googleS .Scont{
+    width: 40%;
+    height: 95%; 
+    display: flex; 
+    flex-flow: column; 
+    align-items: start; 
+    justify-content: center;
+}
+.doccont >* ,.Scont >*{
+    display: flex; 
+    /* height: 30%; */
+}
+.doccont h2, .Scont h2{
+    height: 10%; 
+    font-size: 25px;
+}
+.doccont select,.Scont select{
+    height: 49%;
+    width: 27%;
+}
+.circle0a, .circle0b{
+    display: flex; 
+    width: 100%;
+    height: 30%;
+    gap: 8px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.circle1, .circle2{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    gap: 2px;
+    /* border: 1px solid red; */
+}
+.circle1 >*, .circle2 >*{
+    display: flex;
+    border: 1px solid rgb(19, 243, 120);
+    width: 100%;
+    border-radius: 50%; 
+    /* gap: 3px; */
+}
+.circle1 .c1{
+    background-color: rgb(19, 243, 120);
+}
+.circle2 .d1 ,.circle2 .d2 ,.circle2 .d3{
+    background-color: rgb(19, 243, 120);
+}
+.googleDoc .docpic >* ,.googleS .Spic >*{
+    display: flex; 
+    margin-left: 7px;
+}
+.googleDoc .docpic img{
+    width: 60%;
+    height: 60%; 
+    border-radius: 8px; 
+    /* margin-left: 10px; */
+} 
+.googleDoc .docpic i,.googleS .Spic i{
+    width: 15%; 
+    height: 15%; 
+
+}  
+.main .googleS{
+    display: flex;
+    width: 46%;
+    height: 43%; 
+    border: 1px solid white; 
+    background-color: white;
+} 
+.googleS .Spic{
+    /* width: 49%;  */
+    display: flex; 
+    align-items: center;
+}  
+.googleS .Spic img{
+    width: 60%;
+    height: 60%; 
+    border-radius: 8px; 
+    /* margin-left: 10px; */
+}   
+.main .order{
+    display: flex; 
+    width: 50%; 
+    height: 80%;
+    border: 1px solid gray; 
+    flex-flow: column; 
+    border-radius: 8px;
+} 
+.order .ordertop{
+    height: 45%; 
+    width: 100%;
+    display: flex; 
+    flex-flow: column; 
+    justify-content: center;
+} 
+.order .ordertop >*{
+    display: flex;
+}
+.ordertop .top1{
+    font-size: 24px; 
+    margin-top: 5%;
+}
+.ordertop .top2{
+    margin-left: 14px; 
+    width: 80%; 
+    justify-content: space-between; 
+    margin-left: 7%;
+} 
+.top2 p{
+    font-size: 20px;
+}
+.ordertop .top3{
+    width: 90%; 
+    height: 25%;
+    justify-content: start;
+    /* align-items: center; */
+    /* flex: 1; */
+}    
+.ordertop .top3 input{
+    width: 40%; 
+    height: 50%; 
+    margin-left: 0;
+}
+input[type=text]{
+    color: rgba(97, 95, 95, 0.747);
+}
+.ordertop .top3 button{
+    width: 30%; 
+    height: 58%;
+    border-radius: 6px; 
+    align-self: center; 
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(19, 243, 120); 
+    color:  rgb(19, 243, 120) ; 
+    margin-left: 5px; 
+    font-weight: 500;
+}    
+.ordertop .top3 i{
+    width: 10%; 
+    margin-left: 30px;
+} 
+/* hr{
+    width: 80%; 
+    align-self: center; 
+    margin-top: 5px;
+}  */
+.order .orderbot{
+    display: flex;
+    width: 100%; 
+    flex-flow: column; 
+    height: 55%; 
+    justify-content: start; 
+    margin-top: 3%;
+} 
+.orderbot .bot1{
+    display: flex; 
+    justify-content: space-between;
+    width: 95% ; 
+    align-items: center; 
+    
+}
+.orderbot .bot1 >*{
+    display: flex; 
+    /* width: 50%; */
+}
+.orderbot .bot2{
+    display: flex; 
+    align-self: center; 
+    border: 1px solid rgb(19, 243, 120); 
+    background-color: rgb(19, 243, 120);
+    border-radius: 20px;  
+    width: 80%;  
+    height: 25%; 
+    /* text-align: center;  */
+    box-sizing: border-box; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 15px; 
+    font-weight: 500;
+} 
